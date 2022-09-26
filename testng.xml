@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test" parallel="classes" thread-count="1">
+    <classes>
+   	
+  	  <class name="pom.irctc.testcases.TC001"/>
+      <class name="pom.irctc.testcases.TC002"/>
+      <class name="pom.irctc.testcases.TC003"/>
+      <class name="pom.irctc.testcases.TC004"/>
+      <class name="pom.irctc.testcases.TC005"/>
+      <class name="pom.frro.testcases.TC006"/>
+      <class name="pom.phptravels.testcases.TC007"/>
+      <class name="pom.facebook.testcases.TC008"/>
+      <class name="pom.alerts.testcase.TC009"/>
+      <class name="pom.alerts.testcase.TC0010"/>
+      <class name="pom.alerts.testcase.TC0011"/>
+      
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
